@@ -1,0 +1,19 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "API Prueba para APLIN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "pablorc",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
